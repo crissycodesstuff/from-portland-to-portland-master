@@ -1,6 +1,6 @@
 .photo-grid__list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(216px, 1fr));
     grid-gap: 16px;
     list-style-type: none;
     margin: 0;
@@ -17,7 +17,7 @@
 
 @media only screen and ( min-device-width: 768px) and ( max-device-width: 1023px) {
     .photo-grid__list {
-        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
         grid-gap: 16px;
     }
 }
