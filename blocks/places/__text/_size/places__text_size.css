@@ -1,0 +1,29 @@
+/* places__text_size */
+
+.places__text_size {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.62;
+}
+
+@media only screen and ( min-device-width: 320px) and ( max-device-width: 767px) {
+    .places__text_size {
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.62;
+    }
+}
+
+@media only screen and ( min-device-width: 768px) and ( max-device-width: 1023px) {
+    .places__text_size {
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.62;
+    }
+}
+
+@media only screen and ( min-device-width: 1280px) {
+    .places__text_size {
+        line-height: 1.67;
+    }
+}

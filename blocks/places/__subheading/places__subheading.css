@@ -1,0 +1,15 @@
+/* places__subheading */
+
+.places__subheading {
+    color: #AAAAAA;
+    letter-spacing: 0.2em;
+    text-align: 0;
+    font-size: 12px;
+    line-height: 1;
+}
+
+@media only screen and (min- -width: 320px) and (max- -width: 767px) {
+    .places__subheading {
+        display: none;
+    }
+}

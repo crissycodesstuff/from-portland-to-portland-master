@@ -1,0 +1,17 @@
+/* lead */
+
+@import url("./__image/lead__image.css");
+@import url("./__title/lead__title.css");
+@import url("./__subtitle/lead__subtitle.css");
+@import url("./__text/lead__text.css");
+.lead {
+    max-width: 984px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media only screen and ( min-device-width: 1024px) and ( max-device-width: 1279px) {
+    .lead {
+        max-width: 928px;
+    }
+}

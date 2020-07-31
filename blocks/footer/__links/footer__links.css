@@ -1,0 +1,12 @@
+/* footer__links */
+
+.footer__links {
+    list-style-type: none;
+    display: inline;
+}
+
+@media only screen and ( min-device-width: 320px) and ( max-device-width: 767px) {
+    .footer__links {
+        display: flex;
+    }
+}

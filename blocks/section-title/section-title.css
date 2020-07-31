@@ -1,0 +1,9 @@
+/* section-title */
+
+.section-title {
+  font-family  : "Inter", "Arial", sans-serif;
+  font-style   : normal;
+  font-weight  : 900;
+  margin-top   : 58px;
+  margin-bottom: 0;
+}

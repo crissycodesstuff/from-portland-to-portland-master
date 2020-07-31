@@ -1,0 +1,18 @@
+/* places__link */
+
+.places__link {
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-size: 18px;
+    line-height: 1.22;
+}
+
+.places__link:hover {
+    opacity: 0.5;
+}
+
+@media only screen and (min- -width: 320px) and (max- -width: 767px) {
+    .places__link {
+        display: none;
+    }
+}

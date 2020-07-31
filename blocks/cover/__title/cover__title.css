@@ -1,0 +1,15 @@
+/* cover__title */
+
+.cover__title {
+    font-size: 72px;
+    line-height: 1.06;
+    margin-bottom: 0 0 32px;
+}
+
+@media only screen and ( min-device-width: 320px) and ( max-device-width: 767px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 1.09;
+        max-width: 288px;
+    }
+}

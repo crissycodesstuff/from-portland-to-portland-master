@@ -1,0 +1,7 @@
+/* intro__list-item */
+.intro__list {
+  text-decoration: none;
+  font-size      : 12px;
+  line-height    : 162%;
+  padding-left   : 0;
+}
