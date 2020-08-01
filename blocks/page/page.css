@@ -7,8 +7,8 @@
     font-style: normal;
     font-weight: 400;
     margin: 0 auto;
-    max-device-width: 1280px;
-    min-device-width: 320px;
+    max-width: 1280px;
+    min-width: 320px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
