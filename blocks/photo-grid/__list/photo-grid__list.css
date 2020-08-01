@@ -1,31 +1,30 @@
 .photo-grid__list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(216px, 1fr));
-    grid-gap: 16px;
-    list-style-type: none;
-    margin: 0;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: auto;
+    gap: 16px;
+    width: 100%;
+    list-style: none;
     padding: 0;
-    box-sizing: border-box;
 }
 
-@media only screen and ( min-device-width: 1024px) and ( max-device-width: 1279px) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
     .photo-grid__list {
-        grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
-        grid-gap: 14px;
+        gap: 14px;
+        max-width: 928px;
     }
 }
 
-@media only screen and ( min-device-width: 768px) and ( max-device-width: 1023px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .photo-grid__list {
-        grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
-        grid-gap: 16px;
+        max-width: 720px;
     }
 }
 
-@media only screen and ( min-device-width: 320px) and ( max-device-width: 767px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
     .photo-grid__list {
-        display: flex;
-        flex-direction: column;
-        grid-gap: 0;
+        padding: 0;
+        max-width: 320px;
+        /* gap: 12px; */
     }
 }
