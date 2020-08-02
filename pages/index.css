@@ -1,6 +1,6 @@
 /* pages */
-@import url("../styles/normalize.css");
-@import url("../vendor/fonts/inter/inter.css");
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
 @import url("./../blocks/body/body.css");
 @import url("./../blocks/page/page.css");
 @import url("./../blocks/header/header.css");
@@ -10,5 +10,5 @@
 @import url("./../blocks/places/places.css");
 @import url("./../blocks/cover/cover.css");
 @import url("./../blocks/footer/footer.css");
-@import url("/../blocks/section-title/section-title.css");
-@import url("/../blocks/section-subtitle/section-subtitle.css");
+@import url("./../blocks/section-title/section-title.css");
+@import url("./../blocks/section-subtitle/section-subtitle.css");
